@@ -1,0 +1,27 @@
+﻿.footerlinks {
+    color: #87CEEB; /* Light blue color, matches navbar */
+    text-decoration: none !important;
+}
+
+    .footerlinks:hover {
+        color: #007bff; /* Blue color, matches navbar hover */
+    }
+
+#footer1 {
+    background: #87CEEB; /* Light blue color, matches navbar */
+    color: #ffffff; /* White text color for contrast */
+}
+
+#footer2 {
+    background: #007bff; /* Blue color, matches navbar hover */
+}
+
+/* Additional Footer Styles */
+#footer1 .footerlinks {
+    color: #ffffff; /* White text color for contrast */
+    text-decoration: none !important;
+}
+
+    #footer1 .footerlinks:hover {
+        color: #ffd800; /* Yellow color, matches navbar hover */
+    }

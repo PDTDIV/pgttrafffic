@@ -1,0 +1,37 @@
+﻿/* Styles for the horizontal menu */
+.horizontal-menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+
+    .horizontal-menu li {
+        padding: 10px;
+        border: 1px solid #ccc;
+    }
+
+        .horizontal-menu li:hover {
+            background-color: #f0f0f0;
+        }
+
+/* Styles for the submenu */
+.submenu {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+    .submenu li {
+        padding: 10px;
+        border-bottom: 1px solid #ccc;
+    }
+
+        .submenu li:last-child {
+            border-bottom: none;
+        }
+
+.horizontal-menu li:hover .submenu {
+    display: block;
+}
